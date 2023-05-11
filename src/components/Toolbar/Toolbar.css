@@ -1,0 +1,23 @@
+.portfolio__toolbar {
+  list-style: none;
+  display: flex;
+}
+
+.toolbar__item {
+  background-color: #fff;
+  border: 1px solid black;
+  padding: 1px 5px;
+  border-radius: 2px;
+  margin-right: 5px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.toolbar__item:not(.toolbar__item_selected):hover {
+  background-color: #ccc;
+}
+
+.toolbar__item_selected {
+  background-color: #000;
+  color: #fff;
+}
