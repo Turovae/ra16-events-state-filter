@@ -1,0 +1,17 @@
+.portfolio__projects {
+  /* display: flex; */
+  /* flex-direction: column;
+  flex-wrap: wrap; */
+  /* flex-flow: column wrap; */
+  display: grid;
+  grid-auto-flow: row dense;
+  justify-content: center;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.project__item {
+  /* margin: 10px 5px; */
+  border: 1px solid #ccc;
+  /* width: 100px; */
+  display: block;
+}
