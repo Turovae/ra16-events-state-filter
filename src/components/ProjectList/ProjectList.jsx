@@ -1,3 +1,4 @@
+import { PropTypes } from 'prop-types';
 import './ProjectList.css';
 
 const ProjectList = (props) => {
@@ -12,6 +13,10 @@ const ProjectList = (props) => {
       }
     </div>
   );
+};
+
+ProjectList.propTypes = {
+  data: PropTypes.object.isRequired,
 };
 
 export default ProjectList;
