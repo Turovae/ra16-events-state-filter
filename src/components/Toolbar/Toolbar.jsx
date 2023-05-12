@@ -1,3 +1,4 @@
+import { PropTypes } from 'prop-types';
 import './Toolbar.css';
 
 const Toolbar = (props) => {
@@ -20,6 +21,12 @@ const Toolbar = (props) => {
       }
     </ul>
   )
+};
+
+Toolbar.propTypes = {
+  filters: PropTypes.array.isRequired,
+  selected: PropTypes.string.isRequired,
+  onSelectFilter: PropTypes.function.isRequired,
 };
 
 export default Toolbar;
