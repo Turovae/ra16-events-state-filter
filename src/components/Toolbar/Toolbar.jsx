@@ -26,7 +26,7 @@ const Toolbar = (props) => {
 Toolbar.propTypes = {
   filters: PropTypes.array.isRequired,
   selected: PropTypes.string.isRequired,
-  onSelectFilter: PropTypes.function.isRequired,
+  onSelectFilter: PropTypes.func.isRequired,
 };
 
 export default Toolbar;
