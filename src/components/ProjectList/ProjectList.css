@@ -1,20 +1,11 @@
 .portfolio__projects {
-  display: flex;
-  /* flex-direction: column; */
-  flex-wrap: wrap;
-  /* list-style: none; */
-  /* flex-flow: column wrap; */
-  /* display: grid; */
-  /* grid-auto-flow: row dense; */
-  justify-content: center;
-  /* grid-template-rows: 1fr 1fr 1fr; */
+  column-width: 200px;
+  column-gap: 5px;
 }
 
 .project__item {
-  /* margin: 10px 5px; */
-  border: 1px solid #ccc;
-  width: 200px;
-  display: inline-block;
-  /* page-break-inside: avoid; */
-  /* break-inside: avoid; */
+  border: 1px solid rgba(204, 204, 204, 0.6);
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
 }
